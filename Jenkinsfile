@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo '202206032400'
             }
         }
         stage('Deploy') {
