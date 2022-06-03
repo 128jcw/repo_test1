@@ -12,6 +12,12 @@ pipeline {
                 echo 'Testing..'
             }
         }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying..'
+            }
+        }
+    }
     post {
         always {
             echo "pipline job done"
